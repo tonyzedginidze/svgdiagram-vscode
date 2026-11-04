@@ -5,6 +5,7 @@ body.svgdiagram-modal{width:auto;margin:0}
 .svgdiagram-modal .sd-workspace{display:flex;flex-direction:column-reverse;gap:16px}
 .svgdiagram-modal .sd-controls,.svgdiagram-modal .sd-preview-panel{width:100%;min-width:0}
 .svgdiagram-modal .sd-preview{min-height:160px;max-height:40vh}
+.svgdiagram-modal .sd-preview>svg,.svgdiagram-modal .sd-preview>img{width:auto;max-width:100%;max-height:calc(40vh - 24px);height:auto}
 .svgdiagram-modal button,.svgdiagram-modal input,.svgdiagram-modal textarea,.svgdiagram-modal select{font:inherit;color:var(--vscode-input-foreground);background:var(--vscode-input-background);border:1px solid var(--vscode-input-border,transparent);border-radius:3px;padding:6px}
 .svgdiagram-modal button{cursor:pointer;background:var(--vscode-button-secondaryBackground);color:var(--vscode-button-secondaryForeground)}
 .svgdiagram-modal button.mod-cta{background:var(--vscode-button-background);color:var(--vscode-button-foreground)}
