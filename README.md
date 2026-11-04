@@ -12,7 +12,7 @@ Privacy: https://svgdiagram.ai/privacy · Terms: https://svgdiagram.ai/terms · 
 
 ## Build from source
 
-The standalone source package includes the shared maker code and pinned dependencies. Run `bun install --frozen-lockfile --ignore-scripts`, then `bun run build` to create `media/makers.js` and `media/makers.css`. Run `bun run test` to check the API client and Markdown path handling. The VS Code Marketplace publisher ID must be configured before packaging a release.
+The [source repository](https://github.com/tonyzedginidze/svgdiagram-vscode) includes the shared maker code and pinned dependencies. Run `bun install --frozen-lockfile --ignore-scripts`, then `bun run build` to create `media/makers.js` and `media/makers.css`. Run `bun run test` to check the API client and Markdown path handling. The VS Code Marketplace publisher ID must be configured before packaging a release.
 
 ## Release status
 
