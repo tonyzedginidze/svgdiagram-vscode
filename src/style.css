@@ -1,0 +1,12 @@
+:root{--font-ui-small:13px;--font-ui-smaller:12px;--font-semibold:600;--radius-m:6px;--radius-s:4px;--background-secondary:var(--vscode-editorWidget-background);--background-primary:var(--vscode-editor-background);--text-accent:var(--vscode-textLink-foreground);--text-muted:var(--vscode-descriptionForeground);--background-modifier-border:var(--vscode-panel-border);--background-modifier-hover:var(--vscode-list-hoverBackground)}
+body{color:var(--vscode-foreground);font-family:var(--vscode-font-family);padding:12px}
+body.svgdiagram-modal{width:auto;margin:0}
+.svgdiagram-modal *{box-sizing:border-box}
+.svgdiagram-modal .sd-workspace{display:flex;flex-direction:column-reverse;gap:16px}
+.svgdiagram-modal .sd-controls,.svgdiagram-modal .sd-preview-panel{width:100%;min-width:0}
+.svgdiagram-modal .sd-preview{min-height:160px;max-height:40vh}
+.svgdiagram-modal button,.svgdiagram-modal input,.svgdiagram-modal textarea,.svgdiagram-modal select{font:inherit;color:var(--vscode-input-foreground);background:var(--vscode-input-background);border:1px solid var(--vscode-input-border,transparent);border-radius:3px;padding:6px}
+.svgdiagram-modal button{cursor:pointer;background:var(--vscode-button-secondaryBackground);color:var(--vscode-button-secondaryForeground)}
+.svgdiagram-modal button.mod-cta{background:var(--vscode-button-background);color:var(--vscode-button-foreground)}
+.svgdiagram-modal button:disabled{opacity:.5;cursor:default}
+.svgdiagram-modal .sd-controls{max-height:none}

@@ -1,0 +1,64 @@
+{
+  "name": "svgdiagram",
+  "displayName": "SVG Diagram",
+  "description": "Create diagrams and add them to your Markdown document.",
+  "version": "0.1.0",
+  "license": "GPL-2.0-or-later",
+  "files": [
+    "extension.cjs",
+    "service.cjs",
+    "media/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
+  "main": "./extension.cjs",
+  "activationEvents": [
+    "onCommand:svgdiagram.create",
+    "onCommand:svgdiagram.makers",
+    "onCommand:svgdiagram.setApiKey",
+    "onCommand:svgdiagram.removeApiKey"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "svgdiagram.create",
+        "title": "SVG Diagram: Create Diagram"
+      },
+      {
+        "command": "svgdiagram.makers",
+        "title": "SVG Diagram: Free Makers"
+      },
+      {
+        "command": "svgdiagram.setApiKey",
+        "title": "SVG Diagram: Set API Key"
+      },
+      {
+        "command": "svgdiagram.removeApiKey",
+        "title": "SVG Diagram: Remove API Key"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "bun scripts/build.js",
+    "test": "node --test test/*.test.cjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "vue": "3.5.44",
+    "@fontsource/archivo": "5.3.0",
+    "@fontsource/barlow-condensed": "5.3.0",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/source-sans-3": "5.3.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.7",
+    "@vitejs/plugin-vue": "6.0.4"
+  }
+}
