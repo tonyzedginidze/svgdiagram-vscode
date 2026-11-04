@@ -3,16 +3,26 @@
   "displayName": "SVG Diagram",
   "description": "Create diagrams and add them to your Markdown document.",
   "version": "0.1.0",
+  "publisher": "boringdystopia",
   "license": "GPL-2.0-or-later",
   "repository": {
     "type": "git",
     "url": "https://github.com/tonyzedginidze/svgdiagram-vscode.git"
   },
   "homepage": "https://svgdiagram.ai/",
+  "icon": "icon.png",
+  "keywords": [
+    "diagram",
+    "svg",
+    "markdown",
+    "flowchart",
+    "visualization"
+  ],
   "files": [
     "extension.cjs",
     "service.cjs",
     "media/**",
+    "icon.png",
     "README.md",
     "LICENSE"
   ],
